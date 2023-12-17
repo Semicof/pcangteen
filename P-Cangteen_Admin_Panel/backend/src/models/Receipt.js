@@ -4,7 +4,7 @@ const { Schema, model } = require("mongoose");
 const ReceiptSchema = new Schema(
     {
         products: {
-            type: [{ item: Schema.Types.ObjectId, count: Number }],
+            type: Schema.Types.ObjectId,
             ref: "Products"
         },
         price: {

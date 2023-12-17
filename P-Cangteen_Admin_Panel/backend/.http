@@ -1,1 +1,1 @@
-POST http://localhost:3001/api/products
+GET http://localhost:3001/api/receipts/65571d9d9829869a0d2f027d
